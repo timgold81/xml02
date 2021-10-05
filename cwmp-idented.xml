@@ -1,0 +1,106 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:dslforum-org:cwmp-1-2" xmlns:ns2="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns0:Header>
+    <ns1:ID ns0:mustUnderstand="1">haU761yJla</ns1:ID>
+  </ns0:Header>
+  <ns0:Body>
+    <ns1:Inform>
+      <DeviceId>
+        <Manufacturer>AudioCodes</Manufacturer>
+        <OUI>00908F</OUI>
+        <ProductClass>MSBR</ProductClass>
+        <SerialNumber>00908F8935A9</SerialNumber>
+      </DeviceId>
+      <Event ns2:arrayType="cwmp:EventStruct[5]">
+        <EventStruct>
+          <EventCode>0 BOOTSTRAP</EventCode>
+          <CommandKey />
+        </EventStruct>
+        <EventStruct>
+          <EventCode>1 BOOT</EventCode>
+          <CommandKey />
+        </EventStruct>
+        <EventStruct>
+          <EventCode>2 PERIODIC</EventCode>
+          <CommandKey />
+        </EventStruct>
+        <EventStruct>
+          <EventCode>4 VALUE CHANGE</EventCode>
+          <CommandKey />
+        </EventStruct>
+        <EventStruct>
+          <EventCode>6 CONNECTION REQUEST</EventCode>
+          <CommandKey />
+        </EventStruct>
+      </Event>
+      <MaxEnvelopes>1</MaxEnvelopes>
+      <CurrentTime>2021-02-22T22:58:08+00:00</CurrentTime>
+      <RetryCount>5</RetryCount>
+      <ParameterList ns2:arrayType="cwmp:ParameterValueStruct[16]">
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceSummary</Name>
+          <Value xsi:type="xsd:string">Device:1.0[](Baseline:1), ABCService:1.0[1](Baseline:1)</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.Description</Name>
+          <Value xsi:type="xsd:string">M500L MSBR</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ModelName</Name>
+          <Value xsi:type="xsd:string">M500L</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.HardwareVersion</Name>
+          <Value xsi:type="xsd:string">M500L-4S4O-4LFW-CA1SF-1U</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.SoftwareVersion</Name>
+          <Value xsi:type="xsd:string">7.23A.356.099</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.PeriodicInformEnable</Name>
+          <Value xsi:type="xsd:boolean">true</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.PeriodicInformInterval</Name>
+          <Value xsi:type="xsd:unsignedInt">60</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.PeriodicInformTime</Name>
+          <Value xsi:type="xsd:dateTime">1970-01-01T00:00:00Z</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestURL</Name>
+          <Value xsi:type="xsd:string">http://10.100.102.63:7547/3b305b6dac98db39c52f61b94f98413e</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestUsername</Name>
+          <Value xsi:type="xsd:string" />
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestPassword</Name>
+          <Value xsi:type="xsd:string" />
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ParameterKey</Name>
+          <Value xsi:type="xsd:string">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ProvisioningCode</Name>
+          <Value xsi:type="xsd:string"> </Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.SpecVersion</Name>
+          <Value xsi:type="xsd:string">1.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.X_00908F_ConfigurationVersion</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ExternalIPAddress</Name>
+          <Value xsi:type="xsd:string">10.100.102.63</Value>
+        </ParameterValueStruct>
+      </ParameterList>
+    </ns1:Inform>
+  </ns0:Body>
+</ns0:Envelope>
