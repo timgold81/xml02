@@ -60,7 +60,7 @@ def main():
     print("************************")
     for item in tree.findall("soap:Body",namespaces):
         for i in item.findall('.//'):
-            print (f"tag: {i.tag} , attribute: {i.attrib}")
+            print (f"tag: {i.tag} , attribute: {i.attrib}, text: {i.text}")
 
 
     # xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cwmp="urn:dslforum-org:cwmp-1-2"
